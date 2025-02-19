@@ -21,7 +21,7 @@
            revision="a13/master" />
 
 <!-- Common -->
-  <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common"     groups="device" remote="mi-eldarion" revision="13/R"/>
+  <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common"     groups="device" remote="mi-eldarion" revision="R/bak"/>
   <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" groups="device" remote="mi-eldarion" revision="a13-R"/>
   <project path="vendor/xiaomi/mititanium-common-graphics" name="proprietary_vendor_xiaomi_mititanium-common-graphics" groups="device" remote="mi-eldarion" revision="main"/>
   <project path="vendor/xiaomi/mititanium-common-qc" name="proprietary_vendor_xiaomi_mititanium-common-qc" groups="device" remote="mi-eldarion" revision="main"/>
