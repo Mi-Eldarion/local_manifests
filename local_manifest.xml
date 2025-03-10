@@ -37,20 +37,19 @@
  <!-- YSL -->
   <project path="device/xiaomi/ysl"        name="device_xiaomi_ysl"        groups="device" remote="mi-eldarion" revision="ysl-4.19"/>
   <project path="vendor/xiaomi/ysl"        name="proprietary_vendor_xiaomi_ysl"    groups="device" remote="mi-eldarion" revision="lineage-20"/>
-  <project path="kernel/xiaomi/msm8953"        name="msm-4.19"      remote="mi-eldarion" revision="qti-haptic"/>
+  <project path="kernel/xiaomi/msm8953"        name="msm-4.19"      remote="mi-eldarion" revision="ysl/master"/>
 
  <!-- YSL-CAMERA-V2 -->
-  <project path="device/xiaomi/ysl/camera"        name="android_device_xiaomi_ysl_camera"        groups="device" remote="mi-eldarion" revision="K4.19"/>
+  <project path="device/xiaomi/ysl/camera"        name="android_device_xiaomi_ysl_camera"        groups="device" remote="mi-eldarion" revision="legacy/k4.19"/>
 
  <!-- YSL-DTS -->
-  <project path="kernel/xiaomi/msm8953/arch/arm64/boot/dts/vendor/qcom/ysl"        name="kernel_devicetree-ysl"      remote="mi-eldarion" revision="qti-haptic"/>
+  <project path="kernel/xiaomi/msm8953/arch/arm64/boot/dts/vendor/qcom/ysl"        name="kernel_devicetree-ysl"      remote="mi-eldarion" revision="K4.19"/>
 
  <!-- YSL-MODULE -->
   <project path="kernel/xiaomi/msm8953/techpack/mi8953"        name="kernel_techpack_ysl"      remote="mi-eldarion" revision="K4.19"/>
   <project path="hardware/xiaomi"        name="android_hardware_xiaomi"      remote="RennAlt" revision="lineage-20"/>
 
  <!-- MISC -->
-  <project path="platform/external/Camera"        name="camera"      remote="RennAlt" revision="13"/>
   <project path="vendor/extra" name="vendor_extra" remote="al" revision="ten" />
   
 </manifest>
